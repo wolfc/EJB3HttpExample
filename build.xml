@@ -63,7 +63,7 @@
             <exclude name="**/HelloClient.class"/>
         </fileset>
         <metainf dir="${conf.dir}">
-            <include name="jboss.xml"/>
+            <include name="*.xml"/>
         </metainf>
     </jar>
 </target>

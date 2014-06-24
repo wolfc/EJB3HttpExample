@@ -11,6 +11,9 @@
       <remote-binding>
         <jndi-name>myHello</jndi-name>
       </remote-binding>
+    </session>
+    <session>
+      <ejb-name>HelloHttp</ejb-name>
       <remote-binding>
         <jndi-name>Hello/http</jndi-name>
         <client-bind-url>
