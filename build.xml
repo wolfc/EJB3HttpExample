@@ -1,6 +1,6 @@
 <project name="EJB3HttpExample" default="jar" basedir=".">
 
-<property name="jboss.home" value="/home/onagano/cases/01090246/jboss-as-01"/>
+<!-- property name="jboss.home" value="/home/onagano/cases/01090246/jboss-as-01"/ -->
 <property name="jboss.profile" value="all"/>
 <property name="deploy.dir" value="${jboss.home}/server/${jboss.profile}/deploy"/>
 
